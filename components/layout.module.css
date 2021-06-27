@@ -1,7 +1,23 @@
+.navbar {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid;
+  border-color: #ddd;
+}
+
+.navbarItems {
+  display: flex;
+}
+
+.navbarItems > * {
+  margin-left: 1rem;
+}
+
 .container {
   max-width: 36rem;
-  padding: 0 1rem;
-  margin: 3rem auto 6rem;
+  margin: 0 auto 6rem;
 }
 
 .header {
