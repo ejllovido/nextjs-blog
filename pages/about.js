@@ -1,23 +1,16 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 
-export default function Home() {
+export default function About() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hello, I'm EJ. I'm a Front End Developer at Mashup Garage</p>
+        <p>This is all about learning NextJS</p>
       </section>
-
-      <div>
-          <Link href="/about">
-            <a>Go to About Page</a>
-          </Link>
-        </div>
     </Layout>
   )
 }
