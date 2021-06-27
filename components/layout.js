@@ -37,6 +37,7 @@ export default function Layout({ children, home }) {
         </div>
       </nav>
       <main>{children}</main>
+      <footer className={styles.footer}>Made with 💖</footer>
     </div>
   )
 }
