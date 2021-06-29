@@ -1,0 +1,22 @@
+/* Mobile */
+.container {
+  max-width: 24rem;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 32rem;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 40rem;
+  }
+}

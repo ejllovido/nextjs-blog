@@ -1,0 +1,39 @@
+/* Mobile */
+.navbar {
+  background: white;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid;
+  border-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+/* Tablet */
+/* @media only screen and (min-width: 768px) {
+  .navbar {
+  }
+} */
+
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navbarItems > * {
+    margin-left: 1rem;
+  }
+}
+
+.navbarItems {
+  display: flex;
+}
+
+.navbarItems > * {
+  margin: 0 1rem;
+}
