@@ -6,6 +6,7 @@ export default function Home() {
     <Layout>
       <section className={utilStyles.headingMd}>
         <p>Hello, I'm EJ. I'm a Front End Developer at Mashup Garage.</p>
+        <p>Add list of blogs here...</p>
       </section>
     </Layout>
   )
